@@ -69,7 +69,7 @@ html{
 }
 
 .background{
-    background:rgba(0, 0, 0, 0.7) url('../images/bg.jpg');
+    background:rgba(0, 0, 0, 0.7) url('../images/bg1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -128,6 +128,11 @@ html{
     font-size:14px;
 }
 
+.btn:hover{
+	color:black;
+	background-color:white;
+}
+
 .btn-sm{
     padding: 6px 13px;
     vertical-align: middle;
@@ -135,8 +140,12 @@ html{
 }
 
 .btn-dark{
-    color:black;
-    border:2px solid grey;
+    color:white;
+    border:2px solid black;
+    background-color:black;
+    border-radius:30px;
+    width:40%;
+
 }
 
 .section{
@@ -177,7 +186,7 @@ html{
 }
 
 .contact{
-    background-color: #f7fff5;
+  //  background-color: #E7FFFE;
     height:733px;
 }
 .textcenter{
@@ -189,12 +198,13 @@ html{
 .form{
     max-width:82%;
     margin:25px auto;
+    text-align:center;
 }
 
 .form-input{
     width:100%;
     font-size:16px;
-    border:2px solid grey;
+    border:2px solid black;
     border-radius:6px;
     margin:14px 0;
     padding:5px 3px;
@@ -233,7 +243,7 @@ html{
     .navbar{
         height:549px;
         flex-direction: column;
-        transition: all 0.7s ease-out;
+        transition: all 0.3s ease-out;
     }
     .rightnav{
         text-align: center;
